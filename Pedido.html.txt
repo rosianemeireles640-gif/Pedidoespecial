@@ -1,0 +1,32 @@
+<a href="data:text/html;charset=utf-8,<!DOCTYPE html>
+<html lang='en'>
+<head>
+    <meta charset='UTF-8'>
+    <title>para Maria Eduarda ❤️</title>
+    <style>
+        body { background-color: rgb(107, 101, 101); }
+        .painel{ margin: auto; background-color: white; width: 500px; height: 700px; border-radius: 20px; text-align: center; padding-top: 50px; font-family: sans-serif; }
+        #sim { height: 55px; width: 100px; background-color: green; color: white; cursor: pointer; }
+        #nao { position: absolute; height: 55px; width: 100px; background-color: red; color: white; transition: 0.5s; }
+    </style>
+</head>
+<body>
+    <div class='painel'>
+        <h1>te amo</h1>
+        <img src='https://media1.tenor.com/images/645b93ea8ebcdeaa12805e6f94060e9e/tenor.gif?itemid=14645087' width='300'>
+        <h3>Quer Namorar Comigo ?</h3>
+        <button id='sim'> SIM </button>
+        <button onmouseover='fuja()' id='nao'> NÃO </button>
+    </div>
+    <script>
+        function fuja(){
+            var b = document.getElementById('nao');
+            b.style.left = Math.random() * (window.innerWidth - 100) + 'px';
+            b.style.top = Math.random() * (window.innerHeight - 50) + 'px';
+        }
+        document.getElementById('sim').onclick = function() {
+            window.location.href = 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQYIVjl6kA20zEwrTtb4A3den7909gdbodczA9V62mfYw&s=10';
+        };
+    </script>
+</body>
+</html>" download="pedido_namoro.html">Clique aqui para baixar o arquivo do pedido</a>
